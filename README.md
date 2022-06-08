@@ -28,13 +28,16 @@ Detailed info:
 
 * Vcc - esp 3v3 pin
 * Gnd - Gnd
-* Gps TX - RX2 pin
-* Gps RX - TX2 pin
+* Gps TX - RX1 pin
+* Gps RX - TX1 pin
 ##### Sgp30:
 * Vcc - esp 3v3 pin
 * Gnd - Gnd
 * SCL - D21 pin
 * SDA - D22 pin
+
+** If using raspberry pi pico use GP6 and GP7 pins.**
+
 ## Installation
 
 Just copy and paste script into device flash memory.
